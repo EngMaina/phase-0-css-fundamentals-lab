@@ -1,5 +1,41 @@
-body {
+body header,header+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   margin: 0;
+}
+header {
+  text-align: center;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+nav a {
+  padding: 10px;
+  background-color: azure;
+}
+
+figcaption {
+  text-align: center;
+  font-size: smaller;
+
+}
+ #featured-property p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+}
+ 
+#details div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+  float: left;
 }
